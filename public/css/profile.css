@@ -1,0 +1,153 @@
+.body {
+	font-family: 'Gayathri', sans-serif;
+	font-size: 12px;
+}
+
+.topnav {
+	background: #111111;
+	min-height: 65px;
+	padding-top: 12px;
+}
+.login input {
+	height: 41px;
+	width: 100%;
+	border-radius: 5px;
+	border: 0;
+	padding: 5px 10px;
+	color: #888;
+}
+.loginerror{
+  color: #db8b0b;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.mainBanner {
+	min-height: 370px;
+}
+
+.mainBanner .center-img {
+    margin: 60px auto 60px auto;
+    display: block;
+}
+
+
+.mainBanner .gov {
+    margin: 60px auto 15px auto;
+    display: block;
+}
+.text-center {
+	text-align: center;
+}
+
+.gov-intro {
+	position: relative;
+	font-size: 2em;
+}
+.gov-intro:after {
+	content: "";
+	display: block;
+	position: absolute;
+	width: 200px;
+	height: 5px;
+	bottom: -15px;
+	left:0;
+	right: 0;
+	margin-left: auto; margin-right: auto;
+	background: url(img/govUnderline.svg) 0 0 no-repeat;
+	
+}
+
+.opinion-image {
+	margin: 10px auto 15px auto;
+    display: block;
+}
+
+.explain {
+	font-size: 2em;
+    text-align: center;
+    padding: 5px 4%;
+    line-height: 22px;
+}
+
+.benefit-image {
+	margin: 10px auto 15px auto;
+}
+
+.howtopart {
+	margin: 10px 15px;
+}
+
+.step {
+	margin: 10px auto 15px auto;
+}
+
+.stepsreg {
+		margin: 10px auto 15px auto;
+}
+
+.testimonials h2 {
+	color: #27AE60;
+	font-size: 14px;
+}
+
+.testimonials .playstore {
+	border: 3px solid #0097B4;
+	padding: 15px;
+	overflow: hidden;
+	background: url(img/pla);
+	width: 60%;
+    margin: auto;
+}
+
+.testimonials .available {
+	font-size: 2em;
+	text-align: center; 
+}
+
+.testimonials .click {
+	text-align: center;
+	font-size: 2em;
+	margin: 10px;
+	color: #888;
+}
+
+.testimon {
+	font-size: 12px;
+}
+
+.playlink {
+	display: block;
+	margin: 15px auto;
+	width: 151px;
+}
+
+.contact {
+	text-align: center;
+	margin-top: 25px;
+	font-size: 15px;
+}
+
+.contact img {
+	margin: 10px;
+}
+
+.contact .mhead {
+	font-weight: bold;
+	font-size: 14px;
+	margin-bottom: 15px;
+}
+
+.contact .shead {
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.footer {
+	background: #D1D1D1;
+	height: 51px;
+	padding: 14px;
+	padding-top: 10px;
+	text-align: center;
+	font-size: 1.5em;
+	
+}

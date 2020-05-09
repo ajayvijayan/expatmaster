@@ -1,0 +1,47 @@
+html,
+        body,
+        header,
+        .intro-4 {
+          height: 100%;
+          padding-top:5px;
+          padding-bottom:5px;
+        }
+
+        @media (max-width: 740px) {
+          html,
+          body,
+          header,
+          .intro-4 {
+            height: 100vh;
+          }
+        }
+
+        @media (min-width: 800px) and (max-width: 850px) {
+          html,
+          body,
+          header,
+          .intro-4 {
+            height: 100vh;
+          }
+        }
+
+        @media (min-width: 560px) and (max-width: 740px) {
+          header .intro-4 li h1 {
+            margin-bottom: 0 !important;
+          }
+          header .intro-4 li h5 {
+            margin-bottom: 0 !important;
+          }
+        }
+        @media (min-width: 800px) and (max-width: 850px) {
+          header .intro-4 li h1 {
+            margin-bottom: 0 !important;
+          }
+          header .intro-4 li h5 {
+            margin-bottom: 0 !important;
+          }
+        }
+
+        body {
+            font-weight: 400;
+        }

@@ -1,0 +1,76 @@
+.intro-2 {
+            /* background: url("https://mdbootstrap.com/img/Photos/Others/forest1.jpg")no-repeat center center;*/
+            background-size: cover;
+        }
+
+        .mask.rgba-gradient7 {
+            background: -webkit-linear-gradient(98deg, rgba(0, 180, 219, 0.5), rgba(0, 131, 176, 0.5) 100%);
+            background: -webkit-gradient(linear, 98deg, from(rgba(0, 180, 219, 0.5)), to(rgba(0, 131, 176, 0.5)));
+            background: linear-gradient(to 98deg, rgba(0, 180, 219, 0.5), rgba(0, 131, 176, 0.5) 100%);
+        }
+
+        .card {
+            background-color: rgba(255, 255, 255, 0.85);
+        }
+
+
+        p {
+            font-size: 0.9rem;
+            font-weight: 300;
+        }
+
+        h4 {
+            font-size: 1.3rem;
+        }
+
+        h6 {
+            line-height: 1.7;
+        }
+
+        .md-form label {
+            font-size: 0.9rem;
+            font-weight: 300;
+        }
+
+        html,
+        body,
+        header,
+        .view {
+          height: 100%;
+        }
+
+        @media (min-width: 851px) and (max-width: 1440px) {
+          html,
+          body,
+          header,
+          .view {
+            height: 850px;
+          }
+        }
+
+        @media (min-width: 800px) and (max-width: 850px) {
+          html,
+          body,
+          header,
+          .view {
+            height: 1000px;
+          }
+        }
+
+        @media (min-width: 451px) and (max-width: 740px) {
+          html,
+          body,
+          header,
+          .view {
+            height: 1200px;
+          }
+        }
+
+        @media (max-width: 450px) {
+          html,
+          body,
+          header,
+          .view {
+            height: 1400px;
+          }
+        }
